@@ -67,7 +67,7 @@ $('#solve').on('click', function(){
 		}
 	})
 
-	console.log(newArr);
+	// console.log(newArr);
 	solve(newArr);
 
 	var time = 30;
@@ -165,7 +165,7 @@ function solve(puzzle){
 	} else {
 		// console.log(puzzle);
 		convertToLinear(puzzle);
-		console.log('Done');
+		// console.log('Done');
 		return true;
 	}
 
