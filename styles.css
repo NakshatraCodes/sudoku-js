@@ -1,0 +1,142 @@
+/* with css reset */
+
+*{
+	box-sizing: border-box;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+table { 
+	margin: 10px;
+  	/*border-collapse: collapse;*/
+}
+
+body{
+	/*background-color: black !important;*/
+}
+
+*{
+	box-sizing: border-box;
+}
+
+
+tr:nth-child(1) td:nth-child(1) input,
+tr:nth-child(1) td:nth-child(2) input,
+tr:nth-child(1) td:nth-child(3) input,
+tr:nth-child(2) td:nth-child(1) input,
+tr:nth-child(2) td:nth-child(2) input,
+tr:nth-child(2) td:nth-child(3) input,
+tr:nth-child(3) td:nth-child(1) input,
+tr:nth-child(3) td:nth-child(2) input,
+tr:nth-child(3) td:nth-child(3) input,
+
+tr:nth-child(7) td:nth-child(1) input,
+tr:nth-child(7) td:nth-child(2) input,
+tr:nth-child(7) td:nth-child(3) input,
+tr:nth-child(8) td:nth-child(1) input,
+tr:nth-child(8) td:nth-child(2) input,
+tr:nth-child(8) td:nth-child(3) input,
+tr:nth-child(9) td:nth-child(1) input,
+tr:nth-child(9) td:nth-child(2) input,
+tr:nth-child(9) td:nth-child(3) input,
+
+tr:nth-child(1) td:nth-child(7) input,
+tr:nth-child(1) td:nth-child(8) input,
+tr:nth-child(1) td:nth-child(9) input,
+tr:nth-child(2) td:nth-child(7) input,
+tr:nth-child(2) td:nth-child(8) input,
+tr:nth-child(2) td:nth-child(9) input,
+tr:nth-child(3) td:nth-child(7) input,
+tr:nth-child(3) td:nth-child(8) input,
+tr:nth-child(3) td:nth-child(9) input,
+
+tr:nth-child(7) td:nth-child(7) input,
+tr:nth-child(7) td:nth-child(8) input,
+tr:nth-child(7) td:nth-child(9) input,
+tr:nth-child(8) td:nth-child(7) input,
+tr:nth-child(8) td:nth-child(8) input,
+tr:nth-child(8) td:nth-child(9) input,
+tr:nth-child(9) td:nth-child(7) input,
+tr:nth-child(9) td:nth-child(8) input,
+tr:nth-child(9) td:nth-child(9) input,
+
+tr:nth-child(4) td:nth-child(4) input,
+tr:nth-child(4) td:nth-child(5) input,
+tr:nth-child(4) td:nth-child(6) input,
+tr:nth-child(5) td:nth-child(4) input,
+tr:nth-child(5) td:nth-child(5) input,
+tr:nth-child(5) td:nth-child(6) input,
+tr:nth-child(6) td:nth-child(4) input,
+tr:nth-child(6) td:nth-child(5) input,
+tr:nth-child(6) td:nth-child(6) input{
+	/*background-color: yellow;*/
+	background-color: #1C86EE;
+	/*background-color: #6EB5FF;*/
+}
+
+td {
+	border: 3px solid white;
+	height: 40px;
+	width: 40px;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 30%;
+}
+
+input {
+	padding: 0;
+	text-align: center;
+	border: 0;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	font-weight: 600;
+	font-size: larger;
+	color: grey;
+	/*background-color: #37FDFC;*/
+	background-color: #ff3b85;
+	/*background-color: #FF9CEE;*/
+	color: lightblue;
+	border-radius: 25%;
+}
+
+input:hover {
+	/*background: #ffffff;*/
+	cursor: pointer;
+}
+
+.container{
+	margin: 0px;
+}
+
+.given{
+	/*background-color: #FBEEE6 !important;*/
+	color: black;
+}
+
+.solved{
+	/*background-color: #FE7F9C !important;*/
+	color: white !important;
+}
+
+.wrapper{
+	margin: 0px;
+}
+
+input {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#sudoku{
+	margin: 0px;
+	display: flex;
+}
+
+#clear, #solve, #darkMode, #lightMode {
+	border-radius: 30px; !important;
+}
